@@ -1,0 +1,118 @@
+.p1{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.p2{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(196, 190, 190);    
+    margin-bottom: 100px;
+ }
+
+ h1{
+    font-family: 'Montserat', sans-serif;
+ }
+
+p{
+    text-align: center;
+}
+
+
+header, main, footer{
+    width: 70%;
+    min-width: 400px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(223, 213, 213);
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+main video {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+nav#mainmenu {
+    text-align: center;
+}
+  
+
+footer{
+    border-radius: 0 0 10px 10px;
+    border-top: 5px solid #9c0f4d;
+    background-color: rgb(223, 213, 213);
+}
+
+
+footer p{
+    text-align: center;
+}
+
+
+header nav{
+    background-color: #9c0f4d;
+    padding: 5px 5px 5px 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/*article+nav{
+    text-align: right;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}*/
+
+a[href='#innerpagemenu'] { text-decoration: none;}
+
+/*header nav ul li{
+    display: inline;
+    white-space: nowrap;
+}*/
+
+header nav a,
+header nav b {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+ header nav a,
+header nav b:link{color: black;}
+ header nav a,
+header nav b:visited{color: #ffffff;}
+ header nav a,
+header nav b:hover{text-decoration: underline;}
+
+/*.screenreader a{
+    position: absolute;
+    left: -99999px;
+}
+
+.screenreader a:focus{
+    position: static;
+    background-color: white;
+}*/
+
+
