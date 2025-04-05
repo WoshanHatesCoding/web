@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+	<title>Maryam Mirzakhani - Fields Medal</title>
+	<link href="css/fields.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="media/header.webp">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <script src="fields.js"></script>
+</head>
+
+<body>
+
+	<header>		
+		<div class="first-container">
+            <h1>MARYAM MIRZAKHANI</h1>
+            <img src="media/header.webp" class="image1" alt="icon">
+        </div>
+		<nav id="mainmenu">			
+            <a href="index.html">Main</a>            
+			| <a href="Introduction.html">Introduction</a> 
+            | <b>Fields Medal</b>
+			| <a href="Achievments.html">Achievments</a>
+		</nav>
+    </header>
+    <main>   
+        <div id="wrapper">
+            <div id="photo-group"></div>
+                <div class="photo-group">
+                    <div class="mySlides fade">
+                        <img src="media/Fields1.webp" alt="Maryam Mirzakhani accepting her Fields medal" style="width:100%"> 
+                    </div>
+                    <div class="mySlides fade">                   
+                        <img src="media/Fields3.webp" alt="Maryam Mirzakhani accepting her Fields medal" style="width:100%">
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="media/Fields2.jpg" alt="Maryam Mirzakhani accepting her Fields medal" style="width:100%">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <script>
+                    var slideshowContainer = document.querySelector('.photo-group');
+                    startSlideshow(slideshowContainer);
+                </script>
+
+				<p>Mirzakhani was awarded the Fields Medal in 2014 for "her 
+                    outstanding contributions to the dynamics and geometry of 
+                    Riemann surfaces and their moduli spaces". The award was made 
+                    in Seoul at the International Congress of Mathematicians on 13 
+                    August. At the time of the award, Jordan Ellenberg explained her 
+                    research to a popular audience:
+                    <q><em>
+                        [Her] work expertly blends dynamics with geometry. Among other 
+                        things, she studies billiards. But now, in a move very characteristic 
+                        of modern mathematics, it gets kind of meta: She considers not just 
+                        one billiard table, but the universe of all possible billiard tables. 
+                        And the kind of dynamics she studies doesn't directly concern the 
+                        motion of the billiards on the table, but instead a transformation of 
+                        the billiard table itself, which is changing its shape in a 
+                        rule-governed way; if you like, the table itself moves like a strange 
+                        planet around the universe of all possible tables... This isn't the 
+                        kind of thing you do to win at pool, but it's the kind of thing you 
+                        do to win a Fields Medal. And it's what you need to do in order to 
+                        expose the dynamics at the heart of geometry; for there's no question 
+                        that they're there. 
+                    </em></q>
+                </p>				                
+            </div>
+        </main>	
+        
+        <footer>
+            <address>
+                <p>Created by Baran Sheykholeslmai (<a href="mailto:ebk82f@inf.elte.hu">ebk82f@inf.elte.hu)</a><br></p>
+            </address>
+        </footer>    	
+</body>
+
+</html>
